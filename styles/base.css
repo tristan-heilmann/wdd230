@@ -13,9 +13,6 @@ body {
 header, footer {
   background-color: #2e5984;
   color: #fff;
-}
-
-header, footer {
   display: flex;
   align-items: center;
 	justify-content: center;
@@ -25,6 +22,15 @@ header, footer {
 
 header, main {
   margin: 0 auto;
+}
+
+span {
+  text-size-adjust: 30px;
+  padding-left: 1rem;
+}
+
+img {
+  box-shadow: 1px 1px 10px black;
 }
 
 nav {
